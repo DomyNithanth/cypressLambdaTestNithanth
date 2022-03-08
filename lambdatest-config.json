@@ -1,6 +1,6 @@
 {
    "lambdatest_auth": {
-      "username": "nithanth07@gmail.com",
+      "username": "nithanth07",
       "access_key": "rRfiOfMRKCBDoicq9IZynGS8vSG9k5QKO17DDiSoitPrsi97pu"
    },
    "browsers": [
@@ -21,16 +21,20 @@
    ],
    "run_settings": {
       "cypress_config_file": "cypress.json",
-      "build_name": "build-name",
-      "parallels": 1,
-      "specs": "cypress/tests",
+      "build_name": "cypress-test-nithanth",
+      "parallels": 2,
+      "specs": "cypress/tests/*.ts",
       "ignore_files": "",
       "feature_file_suppport": false,
       "network": false,
       "headless": false,
       "reporter_config_file": "",
       "npm_dependencies": {
-         "cypress": "9.0.0"
+         "@faker-js/faker": "^6.0.0-beta.0",
+        "cypress": "^9.5.1",
+        "cypress-audit": "^1.1.0",
+        "cypress-xpath": "^1.6.2",
+        "typescript": "^4.6.2"
       }
    },
    "tunnel_settings": {

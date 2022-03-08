@@ -7,10 +7,13 @@
       ],
       "types": [
         "cypress",
-        "node"
+        "node",
+        "cypress-xpath",
+        "cypress-audit"
       ],
       "resolveJsonModule": true,
-      "esModuleInterop": true
+      "esModuleInterop": true,
+      "moduleResolution": "Node"
     },
     "include": [
       "**/*.ts","./node_modules/cypress","cypress/**/*.ts"

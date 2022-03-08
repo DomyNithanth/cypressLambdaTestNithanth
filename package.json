@@ -1,27 +1,16 @@
 {
-  
     "name": "lambdatest.cypress",
-  
     "version": "1.0.0",
-  
     "description": "Lambda test",
-  
     "main": "index.js",
-  
     "scripts": {
-  
-      
-    "test": "tsc && cypress open"
-  
+        "test": "tsc && cypress open"
     },
-  
     "devDependencies": {
-  
-      
-    "cypress": "^9.5.1",
-  
-      
-    "typescript": "^4.6.2"
-  
+        "@faker-js/faker": "^6.0.0-beta.0",
+        "cypress": "^9.5.1",
+        "cypress-audit": "^1.1.0",
+        "cypress-xpath": "^1.6.2",
+        "typescript": "^4.6.2"
     }
 }

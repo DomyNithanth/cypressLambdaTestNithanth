@@ -1,9 +1,6 @@
 {
     "chromeWebSecurity": true,
     "baseUrl": "https://www.lambdatest.com",
-    "env": {
-      "domainName": ".lambdatest.com"
-    },
     "integrationFolder": "cypress/tests",
     "testFiles": "**/*.ts",
     "viewportWidth": 1536,

@@ -1,6 +1,11 @@
-describe("The CareStack login page", () => {
+import { ScenarioSteps } from "../steps/scenario/scenario_steps";
 
-    it('should have the CareStack logo', function () {
-       cy.get('dd').click()
+
+describe("Scenrio 1: A user should be able to", () => {
+
+    it('change the default value 15 range slider to 95', function () {
+       new ScenarioSteps().navigateToSeleniumPlaygroundInputForm()
+       .navigateToDragAndDropSlidersPage()
+       .dargValueTo95()
     })
 })

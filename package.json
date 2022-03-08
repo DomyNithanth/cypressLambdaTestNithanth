@@ -1,0 +1,19 @@
+{
+  
+    "name": "lambdatest.cypress",
+    "version": "1.0.0",
+    "description": "Lambda test",
+    "main": "index.js",
+    "scripts": {
+      "test": "tsc && cypress open --browser chrome"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@gitlab.infra.aws.carestack.com:carestack/carestackpay.tests.ui.git"
+    },
+  
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "typescript": "^4.6.2"
+  }
+}

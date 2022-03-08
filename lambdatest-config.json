@@ -21,7 +21,7 @@
    ],
    "run_settings": {
       "cypress_config_file": "cypress.json",
-      "build_name": "Lambdatest-cypress-nithanth",
+      "build_name": "Lambdatest-cypress-nithanth-domy",
       "parallels": 2,
       "specs": "cypress/tests/*.ts",
       "ignore_files": "",
@@ -31,10 +31,10 @@
       "reporter_config_file": "",
       "npm_dependencies": {
          "@faker-js/faker": "^6.0.0-beta.0",
-        "cypress": "^9.5.1",
-        "cypress-audit": "^1.1.0",
-        "cypress-xpath": "^1.6.2",
-        "typescript": "^4.6.2"
+         "cypress": "^9.5.1",
+         "cypress-audit": "^1.1.0",
+         "cypress-xpath": "^1.6.2",
+         "typescript": "^4.6.2"
       }
    },
    "tunnel_settings": {

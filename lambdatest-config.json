@@ -21,7 +21,7 @@
    ],
    "run_settings": {
       "cypress_config_file": "cypress.json",
-      "build_name": "cypress-test-nithanth",
+      "build_name": "Lambdatest-cypress-nithanth",
       "parallels": 2,
       "specs": "cypress/tests/*.ts",
       "ignore_files": "",

@@ -1,9 +1,8 @@
 {
     "chromeWebSecurity": true,
-    "baseUrl": "",
+    "baseUrl": "https://www.lambdatest.com",
     "env": {
-      "domainName": "",
-      "subDomainName": ""
+      "domainName": ".lambdatest.com"
     },
     "integrationFolder": "cypress/tests",
     "testFiles": "**/*.ts",
